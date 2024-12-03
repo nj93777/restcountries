@@ -19,7 +19,7 @@ const App = () => {
 
   const handleFilterChange = (event) => {
     const filterValue = event.target.value;
-    setFilter(filterValue);
+    setFilter(filterValue); // Update filter state with input value
     setSelectedCountry(null); // Clear selected country when filter changes
 
     // Filter countries based on the input
